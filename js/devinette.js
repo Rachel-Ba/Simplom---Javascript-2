@@ -1,7 +1,7 @@
-console.log("Bienvenue dans ce jeu de devinette !");
+alert("Bienvenue dans ce jeu de devinette !");
 
 
-var solution = Math.floor(Math.random() * 10) + 1;
+var solution = Math.floor(Math.random() * 10);
 
 var nbrJoueur = Number(prompt("Entrez un nombre entre 0 et 10:"));
 
@@ -9,7 +9,7 @@ var chance=3;
 
 if (nbrJoueur===solution)
 	{
-		console.log("Bravo ! La solution était "+solution);
+		alert("Bravo ! La solution était "+solution);
 	}
 
 else if(nbrJoueur!==solution) 
